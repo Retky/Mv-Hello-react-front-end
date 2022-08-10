@@ -9,7 +9,7 @@ const getGreetings = async () => {
   return data;
 };
 
-export const fetchGreetings = () => async dispatch => {
+export const fetchGreetings = () => async (dispatch) => {
   const data = await getGreetings();
   dispatch({ type: FETCH_GREETINGS, payload: data });
 };

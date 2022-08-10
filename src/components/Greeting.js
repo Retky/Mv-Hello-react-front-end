@@ -4,11 +4,11 @@ import { fetchGreetings } from '../redux/greetingReducer';
 
 const Greeting = () => {
   const dispatch = useDispatch();
-  const greeting = useSelector(store => store.greeting);
+  const greeting = useSelector((store) => store.greeting);
 
   useEffect(() => {
     dispatch(fetchGreetings());
-  } , [dispatch]);
+  }, [dispatch]);
 
   return (
     <div>

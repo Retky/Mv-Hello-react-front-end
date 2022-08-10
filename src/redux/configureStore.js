@@ -6,7 +6,7 @@ import greetingReducer from './greetingReducer';
 
 const store = configureStore(
   { reducer: { greeting: greetingReducer } },
-  applyMiddleware(thunk)
+  applyMiddleware(thunk),
 );
 
 export default store;
