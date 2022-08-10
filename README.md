@@ -1,46 +1,52 @@
-# Getting Started with Create React App and Redux
+# Mv-Hello-react-front-end
+> Application that display the random greeting from the Back-End call
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+[Back-End](https://github.com/Retky/Mv-Hello-rails-back-end)
 
-## Available Scripts
+## Built With
+- React
+- Redux
+- HTML
+- SASS
+- JAVASCRIPT
 
-In the project directory, you can run:
+### Prerequisites
+If you haven't yet, you should first [set up Git.](https://docs.github.com/en/get-started/quickstart/set-up-git) Don't forget to [set up authentication to GitHub.com from Git](https://docs.github.com/en/get-started/quickstart/set-up-git#next-steps-authenticating-with-github-from-git) as well.
 
-### `npm start`
+### Usage
+- Clone the repository
+  - Above the list of files, click **↓Code**
+  - Clone with HTTPS
+  - Open Terminal
+  - Change the current working directory to the location where you want the cloned directory
+  - Type
+  ```
+  git clone https://github.com/Retky/Mv-Hello-react-front-end.git hello-react-front-end
+  ```
+  - Press Enter. Your local clone will be created
+- Install dependencies
+  ```
+  npm ci
+  ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+For the Live Server `npm start` http://localhost:3000/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Author
+👤 **J. Luis Arredondo**
+- GitHub: [@Retky](https://github.com/Retky "J. Luis Arredondo GitHub")
+- Twitter: [@RetkyFox](https://twitter.com/retkyFox "J. Luis Arredondo Twitter")
+- LinkedIn: [Retky](https://www.linkedin.com/in/Retky "J. Luis Arredondo LinkedIn")
 
-### `npm test`
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to get in touch with any issues or suggestions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🐛 **Bug reports & issues:** Use [GitHub Issues](https://github.com/Retky/Mv-Hello-react-front-end/issues "Bugs & Issues")
+- 💡 **Suggestions:** Use [Github Discussions](https://github.com/Retky/Mv-Hello-react-front-end/discussions "Suggestions")
+- 🙋‍♀️ **General questions:** Use [Github Discussions](https://github.com/Retky/Mv-Hello-react-front-end/discussions "General Questions")
 
-### `npm run build`
+## Show your support
+Give a ⭐️ if you like this project!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 License
+This project is [MIT](./LICENSE) licensed.
